@@ -2,6 +2,7 @@ const axios = require('axios')
 const baseUrl = 'https://wordpress.gintonic.cf/wp-json/wp/v2/' // demo: http://demo.wp-api.org/wp-json/wp/v2/
 
 export default {
+  target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'ptica-project',
